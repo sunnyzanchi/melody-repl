@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "start": "parcel -p 3000 ./src/index.html"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-gsandf": "^1.0.0",
+    "parcel-bundler": "^1.6.2"
+  },
+  "dependencies": {
+    "ohm-grammar-melody": "^0.2.0",
+    "ohm-js": "^0.14.0"
+  }
+}
